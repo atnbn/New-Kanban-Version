@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/signup.css" />
+    <script src="../js/signup.js"></script>
+    <script src="../js/mini_backend.js"></script>
+    <script src="../js/script.js"></script>
+
+
+  </head>
+  <body onload="init()">
+    <a href="">
+      <img class="login-logo" src="../img/login/login-logo.png" />
+    </a>
+    <div id="mainContainer" class="login-container">
+      <div class="login-input" id="logIn">
+      <a href="/html/login.html">
+        <img class="arrow" src="../img/login/reset-password/arrowleft-icon.svg"/>
+        </a>
+        <form onsubmit="addUser(); return false;" id="signInForm" class="login-form" 
+        <div class="title-container">
+        <span id="title" class="title">Sign Up</span>
+        <img class="blueline" src="../img/login/blueline.svg" />
+        </div>
+        <div class="input-container">
+        <img class="icon" src="../img/login/sign-up/name-icon.svg" />
+        <input placeholder="Name" type="name" class="" id="name" />
+        </div>
+        <div class="input-container">
+        <img src="../img/login/email-icon.png" class="icon" />
+        <input placeholder="Email"  type="email" class="" id="email" />
+        </div>
+        <div class="input-container">
+        <img class="icon" src="../img/login/password-icon.png" />
+        <input placeholder="Password" type="password" id="password" />
+        </div>
+        <button type="submit" id="signUp" class="signup-btn">Sign up</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

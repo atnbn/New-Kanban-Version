@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join</title>
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/summary.css" />
+    <script src="../js/mini_backend.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/summary.js"></script>
+  </head>
+  <body onload="init()">
+    <div class="w3" w3-include-html="header.html"></div>
+    <div class="w3" w3-include-html="sidebar.html"></div>
+
+    <section>
+      <div class="main-content">
+        <div class="title-container">
+          <h1>Summary</h1>
+          <img class="lineblue" src="../img/login/blueline.svg" />
+          <span class="describe-text">Everything in a nutshell!</span>
+        </div>
+        <div class="grid">
+          <div class="first-line">
+            <!-- Task Container -->
+            <div class="task-info">
+              <span class="task-number">5</span>
+              <span class="task-text"
+                >Tasks in <br />
+                Board</span
+              >
+            </div>
+            <!-- Task Container -->
+            <div class="task-info">
+              <span class="task-number">5</span>
+              <span class="task-text"
+                >Tasks in <br />
+                Progress</span
+              >
+            </div>
+            <!-- Task Container -->
+            <div class="task-info">
+              <span class="task-number">5</span>
+              <span class="task-text">Awaiting <br />Feedback</span>
+            </div>
+          </div>
+          <!-- Urgency Container -->
+          <div class="urgency-container">
+            <div class="urgency-leftside">
+              <img class="urgency-icon" src="../img/summary/urgent-icon.svg" />
+              <div class="column">
+                <span id="urgency-amount" class="urgency-number">2</span>
+                <span>Urgent</span>
+              </div>
+            </div>
+            <div class="fade"></div>
+            <div class="column date-container" style="gap: 5px">
+              <span style="font-weight: 600">October 16,2022</span>
+              <span>Upcoming Deadline</span>
+            </div>
+            <!-- Todo and Done coainters -->
+          </div>
+          <div class="task-container">
+            <div class="task-medium">
+              <img class="todo-icon" src="../img/summary/todo-icon.svg" />
+              <div class="column">
+                <span class="task-number">1</span>
+                <span>To-do</span>
+              </div>
+            </div>
+            <div class="task-medium">
+              <img class="todo-icon" src="../img/summary/todo-icon.svg" />
+              <div class="column">
+                <span class="task-number">1</span>
+                <span>To-do</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join</title>
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/addtask.css" />
+    <script src="../js/mini_backend.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/addtask.js"></script>
+  </head>
+  <body onload="init()">
+    <div class="w3" w3-include-html="header.html"></div>
+    <div class="w3" w3-include-html="sidebar.html"></div>
+    <div class="main-content">
+      <section>
+        <div class="title-container">
+          <h1>Add Task</h1>
+        </div>
+        <!-- Form -->
+        <div class="form-container">
+          <form>
+            <div class="left-form">
+              <label for="title">Ttiel</label>
+              <input placeholder="Enter a title" type="text" id="title" />
+              <div class="column">
+                <label for="description">Description</label>
+                <textarea
+                  class=""
+                  placeholder="Enter a Description"
+                  type="text"
+                  id="description"
+                ></textarea>
+              </div>
+              <select id="category" required>
+                <option hidden selected value="">
+                  Please select a category...
+                </option>
+                <option>New Category</option>
+                <option>Sales</option>
+                <option>Backoffice</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

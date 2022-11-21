@@ -5,9 +5,15 @@ const msgBox = document.getElementById('msg')
 const email = document.getElementById('email')
 const password = document.getElementById('password')
 const checkBox = document.getElementById('accept')
-
+const forgotbtn = document.getElementById('forgotPasswordLink')
 // let UserEmail = '';
 // let UserPassword = '';
+
+forgotbtn.addEventListener('click', function () {
+  window.location.href = "../html/forgot-password.html"
+})
+
+
 
 if (msg) {
   msgBox.innerHTML = msg;
@@ -42,7 +48,7 @@ function login() {
   let user = users.find(u => u.email == email.value && u.password == password.value)
   if (user) {
     console.log('User Gefunden')
-    // window.location.href = '../html/summary.html'
+    window.location.href = '../html/summary.html'
     if (checkBox.checked) {
       localStorage.userEmail = email.value
       localStorage.userPassword = password.value

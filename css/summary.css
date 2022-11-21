@@ -1,0 +1,128 @@
+/* .main-content {
+    top: 100px;
+    margin-left: 330px;
+    position: absolute;
+} */
+
+h1 {
+    font-size: 45px
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lineblue {
+    /* transform: scaleX(-1); */
+    transform: rotate(90deg);
+    width: 50px;
+}
+
+.describe-text {
+    font-size: 27px;
+}
+
+.task-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 3px rgb(0 0 0 / 4%);
+    gap: 10px;
+    padding: 20px;
+    width: 115px;
+    height: 115px;
+
+    align-items: center;
+}
+
+.task-number {
+    font-size: 45px;
+}
+
+
+
+.task-text {
+    font-size: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+    width: 510px;
+    margin-top: 77px;
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.urgency-container {
+    box-shadow: 0px 0px 14px 3px rgb(0 0 0 / 4%);
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.urgency-icon {
+    height: 50px;
+}
+
+.urgency-amounts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.fade {
+    background-color: rgb(158, 158, 158);
+    height: 64px;
+    width: 2px;
+}
+
+.urgency-leftside {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.urgency-number {
+    font-size: 35px;
+}
+
+.task-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-medium {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 14px 3px rgb(0 0 0 / 4%);
+    border-radius: 22px;
+    padding: 20px;
+    width: 165px;
+}
+
+
+.todo-icon {
+    height: 50px;
+}
+
+.date-container {
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+}

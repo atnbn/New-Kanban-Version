@@ -1,0 +1,36 @@
+textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 21px;
+    gap: 10px;
+    width: 222px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+}
+
+textarea:focus {
+    text-decoration: none;
+}
+
+select {
+    padding: 0px;
+    padding-left: 15px;
+    height: 30px;
+    width: 100%;
+
+}
+
+
+
+.left-form {
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 8px;
+}

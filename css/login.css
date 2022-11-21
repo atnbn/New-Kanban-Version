@@ -36,6 +36,8 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -45,6 +47,10 @@ body {
     font-size: 61px;
     line-height: 120%;
     margin-bottom: 15px;
+}
+
+.blueline {
+    width: 100px;
 }
 
 button {
